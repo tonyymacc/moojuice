@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    color: #f3f4f5;
+    background-color: #202731;
+    font-family: 'DynaPuff', cursive;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.one {
+    position: relative;
+}
+
+
+
+.matte-white {
+    background-color: #f3f4f5;
+}
+
+.matte-grey {
+    background-color: #202731;
+}
+
+.matte-pink {
+    background-color: #D288A2;
+}
+
+.matte-red {
+    background-color: #B33F40;
+}
+
+.matte-light-blue {
+    background-color: #A6B6C9;
+}
+
+.spacer {
+    aspect-ratio: 900/450;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('/milk-splash.svg');
+}
+
+#header-moo {
+}
+
+#header-milk {
+}
+
+#header {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    background-color: #f3f4f5;
+    border-radius: 5px ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-title {
+    background-color: #202731;
+    padding: 10px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.title {
+    padding: auto;
+    margin: auto;
+}
+
+
+.sub {
+
+}
+
+#logo {
+  padding: auto;
+  margin: auto;
+}
+
+.intro {
+
+}
