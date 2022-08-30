@@ -1,11 +1,64 @@
+* {
+    box-sizing: border-box;
+
+}
+
 body {
     margin: 0;
     color: #f3f4f5;
     background-color: #202731;
-    font-family: 'DynaPuff', cursive;
+    font-family: 'DynaPuff', 'cursive';
 }
 
-section {
+.navbar {
+    border-radius: 50px;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.navbar .nav-title {
+    transition: all;
+    transition-duration: 0.25s;
+    border-radius: 50px;
+    margin-right: auto;
+    padding: auto;
+    margin-left: 25px;
+}
+
+.nav-title:hover {
+    color: #202731;
+    background-color: #f3f4f5;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.25s;
+    transform: scale(1.5);
+}
+
+.nav a:hover {
+    color: #202731;
+    background-color: #f3f4f5;
+    transition: all;
+    transition-duration: 0.25s;
+    transform: scale(1.5);
+}
+
+.nav a {
+    padding: 10px;
+    margin: 10ps;
+    border-radius: 50px;
+}
+
+.navbar a {
+    transition: all;
+    transition-duration: 0.25s;
+    color:#f3f4f5;
+    text-decoration: none;
+}
+
+.dish {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -54,16 +107,11 @@ section {
     background-image: url('/milk-splash.svg');
 }
 
-#header-moo {
-}
-
-#header-milk {
-}
-
 #header {
     text-align: center;
     padding: auto;
-    margin: auto;
+    margin-top: -15px;
+    margin-bottom: -200px;
     background-color: #f3f4f5;
     border-radius: 5px ;
     height: auto;
@@ -74,26 +122,23 @@ section {
 .header-title {
     background-color: #202731;
     padding: 10px;
+    transition: all;
+    transition-duration: 0.25s;
     border-radius: 25px;
     margin: auto;
     margin-top: 10px;
 }
 
+.header-title:hover {
+    color: #202731;
+    background-color: #f3f4f5;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.25s;
+    transform: scale(1.2);
+}
+
 .title {
     padding: auto;
     margin: auto;
-}
-
-
-.sub {
-
-}
-
-#logo {
-  padding: auto;
-  margin: auto;
-}
-
-.intro {
-
 }
