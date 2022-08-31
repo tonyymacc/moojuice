@@ -1,0 +1,158 @@
+* {
+    font-family: 'DynaPuff', sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    color: #f3f4f5;
+}
+
+body {
+    background-color: #202731;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+nav .nav-title {
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav .nav-title p {
+    transition: all;
+    transition-duration: .25s;
+}
+
+nav .nav-title p:hover {
+    border-radius: 50px;
+    transition: all;
+    transition-duration: .25s;
+    transform: scale(1.5);
+}
+
+nav .nav-links {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav .nav-links a {
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0px 20px ;
+    text-decoration: none;
+    transition: all;
+    transition-duration: .25s;
+}
+
+nav .nav-links a:hover {
+    transition: all;
+    transition-duration: .25s;
+    color: #2dcfff;
+}
+
+nav .nav-login-button {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav .nav-login-button button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgba(45, 207, 255, 1);
+    transition: all;
+    transition-duration: .25s;
+}
+
+nav .nav-login-button button:hover {
+    background-color: rgba(45, 207, 255, .8);
+    transition: all;
+    transition-duration: .25s;
+    transform: scale(1.10);
+}
+
+header {
+    margin-bottom: -200px;
+    background-color: #f3f4f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .header-title {
+    margin: 10px 0px;
+    text-align: center;
+    border-radius: 25px;
+    background-color:#202731;
+    transition: all;
+    transition-duration: .25s;
+    cursor: pointer;
+}
+
+header .header-title .title {
+    transition: all;
+    transition-duration: .25s;
+    cursor: pointer;
+    margin: 10px 20px;
+    border-radius: 50px;
+}
+
+header .header-title .title:hover {
+    transition: all;
+    transition-duration: .25s;
+    transform: scale(1.1);
+
+}
+
+header .header-logo {
+
+}
+
+header .header-logo img {
+    position: relative;
+    height: auto;
+    width: 200px;
+}
+
+.spacer {
+    aspect-ratio: 900/450;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('/milk-splash.svg');
+}
+
+main {
+
+}
+
+main .main-sections {
+
+}
+
+main .main-sections section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+footer {
+
+}
