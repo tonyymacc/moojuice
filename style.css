@@ -14,12 +14,12 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px 10%;
+    padding: 1vh 5vh;
 }
 
 nav .nav-title {
     margin-right: auto;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@ nav .nav-title p {
 }
 
 nav .nav-title p:hover {
-    border-radius: 50px;
+    border-radius: 5vh;
     transition: all;
     transition-duration: .25s;
     transform: scale(1.5);
@@ -42,9 +42,7 @@ nav .nav-links {
 }
 
 nav .nav-links a {
-    display: inline-block;
-    border-radius: 25px;
-    padding: 0px 20px ;
+    padding: 0vh 1vh;
     text-decoration: none;
     transition: all;
     transition-duration: .25s;
@@ -57,15 +55,15 @@ nav .nav-links a:hover {
 }
 
 nav .nav-login-button {
-    margin-left: 20px;
+    margin-left: 1vh;
     font-size: 16px;
     font-weight: 500;
 }
 
 nav .nav-login-button button {
-    padding: 9px 25px;
+    padding: 1vh 1.5vh;
     border: none;
-    border-radius: 50px;
+    border-radius: 5vh;
     cursor: pointer;
     background-color: rgba(45, 207, 255, 1);
     transition: all;
@@ -80,7 +78,7 @@ nav .nav-login-button button:hover {
 }
 
 header {
-    margin-bottom: -200px;
+    margin-bottom: -15vh;
     background-color: #f3f4f5;
     display: flex;
     flex-direction: column;
@@ -88,38 +86,48 @@ header {
 }
 
 header .header-title {
-    margin: 10px 0px;
+    margin: 1vh;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 2.5vh;
     background-color:#202731;
     transition: all;
     transition-duration: .25s;
     cursor: pointer;
 }
 
+header .header-title:hover {
+    transition: all;
+    transition-duration: .25s;
+    background-color: #f3f4f5;
+
+}
+
+header .header-title:hover .title {
+    transition: all;
+    transition-duration: .25s;
+    transform: scale(1.5);
+    color: #202731;
+}
+
 header .header-title .title {
     transition: all;
     transition-duration: .25s;
     cursor: pointer;
-    margin: 10px 20px;
-    border-radius: 50px;
+    margin: 1vh 2vh;
 }
 
 header .header-title .title:hover {
     transition: all;
     transition-duration: .25s;
-    transform: scale(1.1);
-
+    transform: scale(2);
 }
 
-header .header-logo {
+/* header .header-logo {
 
-}
+} */
 
-header .header-logo img {
-    position: relative;
-    height: auto;
-    width: 200px;
+header .header-logo .logo {
+    max-width: 15vh;
 }
 
 .spacer {
@@ -140,19 +148,16 @@ main {
 
 }
 
-main .main-sections {
-
+main h1 {
+    text-align: center;
 }
 
-main .main-sections section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 400px;
-    padding: 100px 20vw;
+main .animated-grid .card p {
+    color: #202731;
+    text-align: center;
 }
 
-footer {
-
+main .animated-grid .card h2 {
+    color: #202731;
+    text-align: center;
 }
