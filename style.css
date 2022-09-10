@@ -147,17 +147,3 @@ header .header-logo .logo {
 main {
 
 }
-
-main h1 {
-    text-align: center;
-}
-
-main .animated-grid .card p {
-    color: #202731;
-    text-align: center;
-}
-
-main .animated-grid .card h2 {
-    color: #202731;
-    text-align: center;
-}
