@@ -70,12 +70,18 @@ nav .nav-login-button button {
     transition-duration: .25s;
 }
 
+nav .nav-login-button button span {
+    font-size: 8px;
+}
+
 nav .nav-login-button button:hover {
     background-color: rgba(45, 207, 255, .8);
     transition: all;
     transition-duration: .25s;
     transform: scale(1.10);
 }
+
+
 
 header {
     margin-bottom: -15vh;

@@ -1,12 +1,13 @@
-const btn = document.querySelector('button');
+const button = document.querySelector('button');
+// button.addEventListener('click', greet);
 
-btn.addEventListener('click', updateBtn);
-
-function updateBtn() {
-
-  if (btn.textContent === 'Sign in') {
-    btn.textContent = 'Sign out';
-  } else {
-    btn.textContent = 'Sign in';
-  }
-}
+// function greet() {
+//   if (button.textContent === 'Sign in') {
+//     const name = prompt('What is your name?');
+//     alert(`Hello ${name}, nice to see you!`);
+//     button.textContent = `${name}` ;
+//   }
+//   else {
+//     button.textContent = 'Sign in';
+//   }
+// }
